@@ -8,6 +8,6 @@ export default bookshelf => {
         testPlugin() {
             return "testPlugintestestesteset"
         }
-    }
+    })
     return bookshelf
 }

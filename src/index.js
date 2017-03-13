@@ -5,7 +5,7 @@ export default bookshelf => {
     // Bookshelf.Model = BaseModel(Bookshelf)
     bookshelf.Model = bookshelf.Model.extend({
         testPlugin() {
-            return "testPlugin"
+            return "testPlugintestestesteset"
         }
     })
 }

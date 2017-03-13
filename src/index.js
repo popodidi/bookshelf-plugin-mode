@@ -3,9 +3,9 @@ import BaseModel from './BaseModel';
 
 export default function (Bookshelf) {
     // Bookshelf.Model = BaseModel(Bookshelf)
-    Bookshelf.Model = class extends Bookshelf.Model {
+    Bookshelf.Model = Bookshelf.Model.extend({
         testPlugin() {
             return "testPlugin"
         }
-    }
+    })
 }

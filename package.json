@@ -1,0 +1,18 @@
+{
+  "name": "bookshelf-plugin-jsonify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "author": "Hao",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.1"
+  }
+}

@@ -1,9 +1,9 @@
 import lodash from 'lodash';
 import BaseModel from './BaseModel';
 
-export default function (Bookshelf) {
+export default bookshelf => {
     // Bookshelf.Model = BaseModel(Bookshelf)
-    Bookshelf.Model = Bookshelf.Model.extend({
+    bookshelf.Model = bookshelf.Model.extend({
         testPlugin() {
             return "testPlugin"
         }

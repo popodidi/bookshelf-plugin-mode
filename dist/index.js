@@ -17,3 +17,5 @@ var _BaseModel = require('./BaseModel');
 var _BaseModel2 = _interopRequireDefault(_BaseModel);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = exports['default'];

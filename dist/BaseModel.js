@@ -34,3 +34,4 @@ function BaseModel(Bookshelf) {
 }
 
 exports.default = BaseModel;
+module.exports = exports["default"];

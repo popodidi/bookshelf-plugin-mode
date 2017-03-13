@@ -1,6 +1,6 @@
 import lodash from 'lodash';
 import BaseModel from './BaseModel';
 
-module.exports = function (Bookshelf) {
+export default function (Bookshelf) {
     Bookshelf.Model = BaseModel(Bookshelf)
 }

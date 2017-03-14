@@ -16,10 +16,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = function (bookshelf) {
     // Bookshelf.Model = BaseModel(Bookshelf)
+    console.log("pluginnnnnnnnnn");
     bookshelf.Model = bookshelf.Model.extend({
-        testPlugin: function testPlugin() {
-            return "testPlugintestestesteset";
-        }
+        testPlugin: "testPlugintestestesteset"
     });
 };
 

@@ -1,9 +1,7 @@
 function BaseModel(bookshelf) {
-    return class extends bookshelf.Model {
-        testPlugin() {
-            return "testPlugin"
-        }
-    }
+    return bookshelf.Model.extend({
+        testPlugin: "testpluginnnnnnnnnnn"
+    })
 }
 
 export default BaseModel;

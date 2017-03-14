@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 'node'
+  - '6'
+
+deploy:
+  provider: npm
+  email: popodidi@livemail.tw
+  api_key:
+    secure: WVvanIqe7h4QWejetqI3jchLYEFCm8FoYzaEGRDlXGmoApMFtBXOVT9Qg93bvWIQAJbm1xdJTVbs1W5qRDMyLnW41MlwQT8Sy0ok4CYNgno0smkel+C/sVLfO/oSgoWxhUhkfVtSb6m+qh6zlqkhDUW1hROdE7zzSnc4nWZGsrVsp9KR9y/AMPsklAdZ5+Ijymrt4CozabQkTlufEjleXq2QCP30GHVjgFj4dHx5+yd4FWO2yj2PSZKg5Mjc5fyIs4MRXSHIfrf1KI2BeUN3WaISFgl5Gl3Via28mKHQzslSI93QRTIciFehvIZVY19Dn0Bkl848JCccGJIxAml4kqWNgVBT6K3sXe7eT9T4HHd0/aUwa971ZfBJU1IQGMQq7590rkPV6hUOJ1Sa0Fd1gpJdy1mWe0Pl52bDQGfeNqCunJpVoYjpsuKG1+lcrpoKYhio8KyOBGz9Wt4sVj/MtjvR3T2HtHomev6pHmFWSev28zC5RSVUgszPEB+uBzecevWXXUvknSsUYLBF3f/7Jx8pMBVn2+MPidr4yDi2RSBud2v/+A3hXWJ8e84zdF+1VQ09JQt7EXUNyT0iZMH8RzBjOaOESN8TMAmvjBM16wei8MLLM3HJpwvrscJWZEsh40+32msWy9ik7Pew18fzEVkKa8Lr5qmY0mErbS4zpv0=
+  on:
+    branch: master
+    tags: true
+    repo: popodidi/bookshelf-plugin-mode
+

@@ -1,18 +1,29 @@
 {
-  "name": "bookshelf-plugin-jsonify",
-  "version": "1.0.0",
+  "name": "bookshelf-plugin-mode",
+  "version": "0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist"
   },
+  "keywords": [
+    "bookshelf",
+    "model",
+    "hide",
+    "hidden",
+    "show",
+    "visible"
+  ],
+  "homepage": "https://github.com/popodidi/bookshelf-plugin-mode",
+  "repository": "https://github.com/popodidi/bookshelf-plugin-mode.git",
   "author": "Hao",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.2.1"
   }
 }

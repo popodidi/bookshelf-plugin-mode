@@ -1,7 +1,7 @@
 {
   "name": "bookshelf-plugin-mode",
-  "version": "0.1.8",
-  "description": "",
+  "version": "1.0.1",
+  "description": "bookshelf-plugin-mode is inspired by visibility plugin, providing functionality to specify different modes with corresponding visible/hidden fields of model. ",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
@@ -13,7 +13,10 @@
     "hide",
     "hidden",
     "show",
-    "visible"
+    "visible",
+    "json",
+    "mask",
+    "visibility"
   ],
   "homepage": "https://github.com/popodidi/bookshelf-plugin-mode",
   "repository": "https://github.com/popodidi/bookshelf-plugin-mode.git",

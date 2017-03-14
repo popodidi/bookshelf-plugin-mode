@@ -1,5 +1,5 @@
-function BaseModel(Bookshelf) {
-    return class extends Bookshelf.Model {
+function BaseModel(bookshelf) {
+    return class extends bookshelf.Model {
         testPlugin() {
             return "testPlugin"
         }

@@ -1,10 +1,11 @@
 {
   "name": "bookshelf-plugin-mode",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "test": "echo no test for now"
   },
   "keywords": [
     "bookshelf",

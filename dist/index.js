@@ -21,7 +21,7 @@ exports.default = function (bookshelf) {
         model: baseModel
     });
 
-    console.log("pluginnnnnnnnnn");
+    console.log("pluginnnnnnnnnn collectionnnnn");
     // console.log(bookshelf.Model);
     // bookshelf.Model = bookshelf.Model.extend({
     //     testPlugin: "testPlugintestestesteset"

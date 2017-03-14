@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-plugin-mode",
-  "version": "0.1.8",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "hide",
     "hidden",
     "show",
-    "visible"
+    "visible",
+    "json",
+    "mask"
   ],
   "homepage": "https://github.com/popodidi/bookshelf-plugin-mode",
   "repository": "https://github.com/popodidi/bookshelf-plugin-mode.git",

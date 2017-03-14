@@ -1,7 +1,12 @@
+before_install:
+  - npm install -g npm
+  - npm --version
+
 language: node_js
 node_js:
 - node
 - '6'
+
 deploy:
   provider: npm
   email: popodidi@livemail.tw
@@ -11,3 +16,6 @@ deploy:
     branch: master
     tags: true
     repo: popodidi/bookshelf-plugin-mode
+env:
+  global:
+    secure: q9/GfoGHf1ZoD6gvmUqxzjRmM3RSuB4JznwPo5urkPIXHWp2swf3L9PE+m1fu/1Iicvkk3pQQQQLXaTXFC1dhdUlTgKhcEAX+bGyznxPHKFDIe18Asg+4dhHTc//tTui9p3RbcNUD6h5MDBTT9Tx8G6bNo1w4xjZGmG3ae7tv4hWM/Auci7lsSTeuACpWTsbfUOQOLj/UetKdTvpMRCjskYLZZM3GvqnA6Udk8CblT4gKViH/0XgCBSG0thmJQnBoqM/N54n5IOs+lunAQOgVAxcM4OfJFJtV1Mh6bbYBUngpaq2zNCU6S97U2YiwoOhf7YFd6RWACCQf+kcDK6tdvq33YkoY+LbKFOpdAvqWg/EY6+TYYv7O0PhrMZHn+hVP8Hhp61SiE4pKpD6uE8xuZaXkVZOskttnEjnSus5t4mZlrB8Np8EtImAyTuGGgpFrb+KwSqg5vxJM38Hok666mqnehT0ez9UJXc0XKSv+smbWfL70bybHkDw1PeiQ44sheT8vGNVEMg32HkOkh27CTiclBIxngQmx/zYmf1DGreIBmSY72JpsCNH1YMzpEpnI0FU7yUebz4lZEc0uje8lldLXVweSOOwTILE7JlNlFmdW/hteie072I9RQ44wwmxqzm7aICkPBvhcVy7d8TjX+zhph2NWeNQOY5IhEFMahM=

@@ -2,7 +2,12 @@ import lodash from 'lodash';
 import BaseModel from './BaseModel';
 
 export default bookshelf => {
-    bookshelf.Model = BaseModel(bookshelf)
+    const baseModel = BaseModel(bookshelf);
+    bookshelf.Model = baseModel;
+    bookshelf.Collection = bookshelf.Collection.extend({
+        model: baseModel
+    });
+
     console.log("pluginnnnnnnnnn");
     // console.log(bookshelf.Model);
     // bookshelf.Model = bookshelf.Model.extend({

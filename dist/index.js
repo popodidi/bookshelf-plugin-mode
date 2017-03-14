@@ -15,7 +15,12 @@ var _BaseModel2 = _interopRequireDefault(_BaseModel);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function (bookshelf) {
-    bookshelf.Model = (0, _BaseModel2.default)(bookshelf);
+    var baseModel = (0, _BaseModel2.default)(bookshelf);
+    bookshelf.Model = baseModel;
+    bookshelf.Collection = bookshelf.Collection.extend({
+        model: baseModel
+    });
+
     console.log("pluginnnnnnnnnn");
     // console.log(bookshelf.Model);
     // bookshelf.Model = bookshelf.Model.extend({

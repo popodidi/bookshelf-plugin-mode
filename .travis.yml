@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: popodidi@livemail.tw
+  api_key:
+    secure: tmtXfh5y/7P2o8952/ykiY2bnqwKenoHUdlWJIM4Y4H9dAIXEYXnZh6zVKdj88Ed3MV1/92AYqs4njrth3GHKH3Er92foRNz1vc1k2uqBvHDY6JKCEy62o/3bGAHJY0i8AaqO1J/WII1ZoeHOxz7CxrYBOPzr03vzeq8hW/+/0jZV3pEPGMMfrX0YUlC/jXwp4j+4CrpgkOz8A/FbtcYNQofjvkEPZGetCp1izkPyDk+P6Mlu1zFbRoTki+uPPcotgEhHeNxo+MQZm3aGrjFvtRYCmN/3kSPAqxy5d4ifNioinvojJKoFnH74GtIiAWRkn98JGZzlreVUWEEVL8xN031qLSZT0uPv2DBGuXRWfQIyTW+VoCoLFNsSrESm2XDmz0jxuLGQkhq+OR2tkOaFeM5DJMyQCgoCLjDyyT0I3ZbMCfpagAs9P38L6f+c4CDVFzVtCuAHm36mQms8MDRZ1r9XyFp9ZojZv5TQVWnzJYyx5wMTnIPTPCdFD0mNCJtqN+7eBJApICyGKIQk2QWsBXKXc5Xwr+Es7MUgDn0+r16/XiOuwvC8mKTE9FERB9XQOWo9p035ED5DPnXGu7F5rQxy2VCDpHzM56hE2yMWy1PAUY8G/+RekmpYTBNfM55q8PY4Y+Muw89zBDfLV1tcPAfBBXMSHLbHo1KSF1Ng6Y=
+  on:
+    tags: true
+    repo: popodidi/bookshelf-plugin-mode
